@@ -1,6 +1,7 @@
 import React from 'react'
+import { star } from '../assets/icons'
 
-const ReviewCard = ({imgURl,customerName,feedback,rating,star}) => {
+const ReviewCard = ({imgURl,customerName,feedback,rating}) => {
   return (
     <div className='flex flex-col justify-center items-center'>
         <img src={imgURl} alt="customer" className='rounded-full object-cover w-[120px] h-[120px]'/>
